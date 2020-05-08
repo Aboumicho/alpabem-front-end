@@ -1,5 +1,8 @@
+
 import ApolloClient from 'apollo-boost';
 
+const GRAPHQL_SERVER = "http://localhost:4000/graphql"
+
 export default new ApolloClient({
-  uri: "http://localhost:4000/graphql",
+  uri: GRAPHQL_SERVER,
 });
